@@ -20,8 +20,8 @@ function nowServing(katzDeli) {
 
 function currentLine(katzDeli) {
   var line = [];
-  let i = 0;
-  while (i < katzDeli.length) {
+  // let i = 0;
+  for (let i = 0; i < katzDeli.length) {
     line.push(` `+[i+1]+`. ` + katzDeli[i])
     i++;
   }
