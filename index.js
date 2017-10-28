@@ -19,10 +19,9 @@ function nowServing(katzDeli) {
 }
 
 function currentLine(katzDeli) {
-  let i = 0;
-  while(i < katzDeli.length) {
-    i++;
+  var line = "";
+  for (let i = 0; i < katzDeli.length; i++) {
+    line.push(` `+ [i+1] +` katzDeli[i])
+    `The line is currently: ${i+1}. `
   }
-  return 
-  `The line is currently: ${line.index}`
 }
