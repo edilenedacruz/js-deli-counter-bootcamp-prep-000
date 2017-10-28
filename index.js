@@ -11,5 +11,5 @@ function nowServing(katzDeli) {
   } else {
     return (`Currently serving ${katzDeli[0]}.`)
   }
-  var.unshift
+  katzDeli.
 }
