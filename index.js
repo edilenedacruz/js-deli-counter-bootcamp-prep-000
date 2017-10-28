@@ -1,4 +1,3 @@
-var katzDeliLine = []
-function takeANumber() {
+function takeANumber(katzDeli, customer) {
 
 }
