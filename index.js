@@ -1,6 +1,6 @@
-var katzDeliLine = [];
+var katzDeli = [];
 
-function takeANumber(katzDeliLine, customer) {
-  katzDeliLine.push(customer)
+function takeANumber(katzDeli, customer) {
+  katzDeli.push(customer)
   return "Welcome, 
 }
