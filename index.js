@@ -27,7 +27,7 @@ function currentLine(katzDeli) {
     line.push(` `+[i+1]+`. `katzDeli[i])
   }
     if (katzDeli.lenght === 0) {
-      return "The line is currently emply."
+      return "The line is currently empty."
     } else {
     return (`The line is currently:` + line)
   }
