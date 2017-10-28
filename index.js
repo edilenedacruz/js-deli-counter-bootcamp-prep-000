@@ -2,5 +2,5 @@ var katzDeli = [];
 
 function takeANumber(katzDeli, customer) {
   katzDeli.push(customer)
-  return "Welcome, 
+  return ("Welcome, ${customer}. ") 
 }
