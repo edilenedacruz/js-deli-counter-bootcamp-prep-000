@@ -22,6 +22,7 @@ function currentLine(katzDeli) {
   var line = [];
   for (let i = 0; i < katzDeli.length; i++) {
     line.push(` `+[i+1]+`. `katzDeli[i])
+  }
     if (katzDeli.lenght === 0) {
       return "The line is currently emply."
     } else {
