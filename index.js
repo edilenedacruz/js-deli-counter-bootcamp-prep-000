@@ -17,3 +17,12 @@ function nowServing(katzDeli) {
     return `Currently serving ${katzDeli.shift()}.`;
   }
 }
+
+function currentLine(katzDeli) {
+  let i = 0;
+  while(i < katzDeli.length) {
+    i++;
+  }
+  return 
+  `The line is currently: ${line.index}`
+}
